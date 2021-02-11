@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/header">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+<!--            <ImageView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="30dp"-->
+<!--                android:layout_centerInParent="true"-->
+<!--                android:src="@drawable/logo_text_white" />-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                android:clickable="true"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@id/header"
+        android:paddingTop="10dp"
+        app:tabBackground="@color/colorBackground"
+        app:tabIndicatorColor="@color/gray"
+        app:tabIndicatorFullWidth="false"
+        app:tabRippleColor="@null"
+        app:tabSelectedTextColor="@color/gray"
+        app:tabTextAppearance="@style/MyTabLayoutTextAppearance"
+        app:tabTextColor="@color/opacityGray" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_below="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/emptyView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="140dp"-->
+<!--        android:orientation="vertical"-->
+<!--        android:paddingLeft="50dp"-->
+<!--        android:paddingRight="50dp">-->
+
+<!--        <ImageView-->
+<!--            android:layout_width="190dp"-->
+<!--            android:layout_height="120dp"-->
+<!--            android:layout_gravity="center_horizontal"-->
+<!--            android:layout_marginBottom="8dp"-->
+<!--            android:src="@drawable/empty_view" />-->
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:gravity="center_horizontal"-->
+<!--            android:text="Transaction History is Empty"-->
+<!--            android:textColor="@color/gray"-->
+<!--            android:textSize="14sp"-->
+<!--            android:textStyle="bold" />-->
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="8dp"-->
+<!--            android:gravity="center_horizontal"-->
+<!--            android:text="Lorem ipsum dolor sit amet, consectetur-->
+<!--adipiscing elit. Nunc fermentum orci turpis, et auctor-->
+<!--magna egestas quis. "-->
+<!--            android:textColor="@color/opacityGray2"-->
+<!--            android:textSize="12sp"-->
+<!--            android:textStyle="normal" />-->
+
+<!--    </LinearLayout>-->
+
+</RelativeLayout>

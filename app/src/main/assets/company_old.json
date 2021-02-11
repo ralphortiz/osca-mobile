@@ -1,0 +1,122 @@
+[
+  {
+    "company_name": "Jollibee",
+    "branch": "Gen. Luna, Ermita"
+  },
+  {
+    "company_name": "Diligence Cafe",
+    "branch": "Malate, Manila"
+  },
+  {
+    "company_name": "Mcdonalds",
+    "branch": "Tandang Sora, Commonwealth"
+  },
+  {
+    "company_name": "Dunkin Donuts",
+    "branch": "Sangandaan, Quezon City"
+  },
+  {
+    "company_name": "Greenwich",
+    "branch": "Farmer's Plaza"
+  },
+  {
+    "company_name": "Mang Inasal",
+    "branch": "Alphaland Southgate Towers"
+  },
+  {
+    "company_name": "Kenny Rogers Roasters",
+    "branch": "T3 - NAIA"
+  },
+  {
+    "company_name": "Chowking",
+    "branch": "Hi-Top Supermarket, Aurora Blvd."
+  },
+  {
+    "company_name": "KFC",
+    "branch": "Mall of Asia"
+  },
+  {
+    "company_name": "Aristocrat",
+    "branch": "Malate, Manila"
+  },
+  {
+    "company_name": "Mercury Drug",
+    "branch": "GMA, Cavite"
+  },
+  {
+    "company_name": "Mercury Drug",
+    "branch": "Hidalgo St., Quiapo"
+  },
+  {
+    "company_name": "Mercury Drug",
+    "branch": "4th st., Taguig"
+  },
+  {
+    "company_name": "Watsons",
+    "branch": "Portal, GMA, Cavite"
+  },
+  {
+    "company_name": "Watsons",
+    "branch": "Montillano St., Alabang"
+  },
+  {
+    "company_name": "Watsons",
+    "branch": "Waltermart, Gen. Trias"
+  },
+  {
+    "company_name": "Watsons",
+    "branch": "SM Manila"
+  },
+  {
+    "company_name": "The Generics Pharmacy",
+    "branch": "Arnaiz Ave., Makati"
+  },
+  {
+    "company_name": "The Generics Pharmacy",
+    "branch": "Quirino Ave, Paranaque"
+  },
+  {
+    "company_name": "The Generics Pharmacy",
+    "branch": "Boni Ave., Mandaluyong"
+  },
+  {
+    "company_name": "LRT",
+    "branch": "Central Station"
+  },
+  {
+    "company_name": "LRT",
+    "branch": "Doroteo Jose Station"
+  },
+  {
+    "company_name": "LRT",
+    "branch": "United Nations Station"
+  },
+  {
+    "company_name": "LRT",
+    "branch": "Gil Puyat Station"
+  },
+  {
+    "company_name": "LRT",
+    "branch": "Pedro Gil Station"
+  },
+  {
+    "company_name": "MRT",
+    "branch": "Taft Station"
+  },
+  {
+    "company_name": "MRT",
+    "branch": "Guadalupe Station"
+  },
+  {
+    "company_name": "MRT",
+    "branch": "Magallanes Station"
+  },
+  {
+    "company_name": "MRT",
+    "branch": "Araneta - Cubao Station"
+  },
+  {
+    "company_name": "MRT",
+    "branch": "Ayala Station"
+  }
+]

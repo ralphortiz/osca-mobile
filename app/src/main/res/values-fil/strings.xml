@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- English/Filipino Language Support -->
+
+    <!-- Login -->
+    <string name="login">Mag Login</string>
+    <string name="sign_in">Mangyaring mag-sign in upang magpatuloy</string>
+    <string name="osca_id">OSCA ID</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Nakalimutan ang password?</string>
+
+    <!-- Profile -->
+    <string name="help">Tulong</string>
+    <string name="personal_details">Personal na Detalye</string>
+    <string name="sex">KASARIAN</string>
+    <string name="birth_date">ARAW NG KAPANGANAKAN</string>
+    <string name="membership_date">PETSA NG PAGIGING MIYEMBRO</string>
+    <string name="contact_number">TELEPONO</string>
+    <string name="address">TIRAHAN</string>
+    <string name="osca_wristband">OSCA WRISTBAND</string>
+    <string name="account_status">ESTADO NG IYONG ACCOUNT</string>
+
+    <!-- Settings -->
+    <string name="back">Bumalik</string>
+    <string name="settings">Settings</string>
+    <string name="select_language">Pumili ng Wika:</string>
+
+    <!-- Home Fragment -->
+    <string name="read_pdf">Basahin ang PDF</string>
+    <string name="notifications_reminders">Mga Abiso at Paalala</string>
+
+    <!-- Authorization Fragment -->
+    <string name="generate_qr">Bumuo ng QR</string>
+    <string name="authorize_empty">Ang Iyong Listahan ay Walang Laman</string>
+    <string name="authorize_description_empty">Simulang magdagdag ng mga item sa pamamagitan ng pag-pindot sa + na button sa ibabang kanan.</string>
+
+    <!-- Dialog Add -->
+    <string name="close">Isara</string>
+    <string name="add_label">Mangyaring ilagay ang mga item sa mga patlang</string>
+    <string name="add_description">Maging tiyak sa paglalagay ng pangalan ng produkto, dami at karagdagang mga tala bago mo idagdag ang mga ito sa listahan.</string>
+    <string name="enter_product_name">Ilagay ang Pangalan ng Produkto</string>
+    <string name="enter_product_quantity">Ilagay ang Dami ng Produkto</string>
+    <string name="addtional_notes">Karagdagang Mga Tala (hal. Laki, Yunit, Kulay)</string>
+    <string name="add_item">Idagdag ang Item</string>
+    <string name="update_item">I-update ang item</string>
+
+    <!-- Dialog QR -->
+    <string name="qr_label">Mangyaring ilagay ang iyong password sa ibaba upang makabuo ng QR code.</string>
+    <string name="qr_description">Papayagan ka nitong pahintulutan ang isang miyembro ng pamilya na bumili ng mga item o kumuha ng mga serbisyo sa iyong ngalan.</string>
+    <string name="enter_password">Ilagay ang iyong Password</string>
+    <string name="save_qr">I-save ang QR</string>
+
+    <!-- Dialog Help -->
+    <string name="help_label">Gabay sa Pag-gamit (Pahihintulot)</string>
+    <string name="help_description">Mangyaring sundin nang mabuti ang mga nakatalang tagubilin.</string>
+    <string name="help_instruction">• I-click ang (+) button sa ibaba upang magdagdag ng mga item sa listahan \n\n • Punan ang kinakailangang mga patlang pagkatapos ay i-click ang add button\n\n• I-click ang bumuo ng QR upang maipakita ang isang QR code\n\n•I-save ang QR code sa pamamagitan ng pag-click sa save button\n\n• Gagamitin ang nabuong QR code upang payagan ang pagbili ng mga kalakal sa ngalan ng nakatatanda</string>
+
+    <!-- Dialog Forgot Password -->
+    <string name="forgot_label">Mangyaring ilagay ang iyong OSCA ID sa ibaba</string>
+    <string name="forgot_description">Ipapadala ang iyong password sa pamamagitan ng iyong mobile number.</string>
+    <string name="enter_osca">Ilagay ang OSCA ID</string>
+    <string name="enter">I-enter</string>
+
+    <!-- Dialog Report Success-->
+    <string name="report_success_label">Ang iyong ulat ay matagumpay na naipadalad</string>
+    <string name="report_success_description">Salamat sa pag-uulat ng isyung ito. Ang iyong ulat ay amin susuriin at pag aaralan ng mabuti.</string>
+
+    <!-- History Fragment -->
+    <string name="transportation">Transportasyon</string>
+    <string name="food">Pagkain</string>
+    <string name="pharmacy">Parmasya</string>
+
+    <!-- Tab History Fragment -->
+    <string name="latest_transaction">Ang iyong pinakabagong mga transaksyon ay makikita sa loob ng 24 na oras.</string>
+
+    <!-- Report Fragment -->
+    <string name="report_label">Ano ang iyong gustong iulat?</string>
+    <string name="report_description">Mangyaring piliin sa ibaba kung alin ang nais mong iulat.</string>
+    <string name="lost_osca">Nawawalang wristband ng OSCA</string>
+    <string name="file_complaints">Reklamo patungkol sa Establisyemento</string>
+    <string name="select_establishment">Pumili ng Establisyemento:</string>
+    <string name="select_branch">Pumili ng Sangay:</string>
+    <string name="additional_remarks">Karagdagang Pangungusap</string>
+    <string name="report">Iulat</string>
+
+    <!-- List History -->
+    <string name="details">Detalye</string>
+
+    <!-- List Authorization -->
+    <string name="edit">I-edit</string>
+    <string name="delete">Tanggalin</string>
+
+    <!-- Toast String -->
+    <string name="login_failed">Hindi matagumpay ang pag-login</string>
+    <string name="osca_not_exist">Ang nakatalang OSCA ID ay hindi makita sa aming server</string>
+    <string name="check_inbox">Mangyaring suriin ang iyong inbox</string>
+    <string name="report_failed">Ang iyong ulat ay di matagumpay na naipadala!</string>
+    <string name="success_sent">Matagumpay na Naipadala!</string>
+    <string name="enter_product_and_quantity">Mangyaring itala ang pangalan at dami ng produkto</string>
+    <string name="enter_fist_item">Mangyaring mag lagay muna ng mga item sa iyong listahan</string>
+</resources>

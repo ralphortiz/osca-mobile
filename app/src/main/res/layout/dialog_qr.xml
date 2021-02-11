@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorBackground"
+    android:clickable="true"
+    android:elevation="5dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/btnClose2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:clickable="true"
+        android:drawableRight="@drawable/ic_close"
+        android:drawablePadding="5dp"
+        android:drawableTint="@color/gray"
+        android:text="@string/close"
+        android:textColor="@color/gray"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:tint="@color/gray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+<!--        <TextView-->
+<!--            android:id="@+id/tvBusinessType"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginBottom="10dp"-->
+<!--            android:gravity="start"-->
+<!--            android:text="This transaction is for:"-->
+<!--            android:textColor="@color/gray"-->
+<!--            android:textSize="16sp"-->
+<!--            android:textStyle="bold" />-->
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginBottom="20dp"-->
+<!--            android:text="Select which transaction type the QR code will be used for."-->
+<!--            android:textColor="@color/gray"-->
+<!--            android:textSize="11sp"-->
+<!--            android:textStyle="normal" />-->
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/tvLanguage"-->
+<!--            android:layout_marginBottom="15dp"-->
+<!--            android:background="@drawable/spinner_bg3"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:paddingLeft="5dp"-->
+<!--            android:paddingRight="5dp">-->
+
+<!--            <Spinner-->
+<!--                android:id="@+id/spinBusinessType"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:layout_centerVertical="true"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:background="@android:color/transparent"-->
+<!--                android:gravity="center"-->
+<!--                android:spinnerMode="dropdown" />-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_alignParentRight="true"-->
+<!--                android:layout_centerVertical="true"-->
+<!--                android:src="@drawable/ic_down"-->
+<!--                app:tint="@color/gray" />-->
+
+<!--        </RelativeLayout>-->
+
+        <LinearLayout
+            android:id="@+id/llAuthorize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="@string/qr_label"
+                android:textColor="@color/gray"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="@string/qr_description"
+                android:textColor="@color/gray"
+                android:textSize="11sp"
+                android:textStyle="normal" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                app:hintAnimationEnabled="false"
+                app:hintEnabled="false">
+
+                <EditText
+                    android:id="@+id/etPWAuthorize"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="@drawable/bg_textbox"
+                    android:hint="@string/enter_password"
+                    android:imeOptions="flagNoExtractUi"
+                    android:singleLine="true"
+                    android:textColor="@color/gray"
+                    android:textColorHint="@color/opacityGray"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+<!--        <ImageView-->
+<!--            android:id="@+id/ivQR"-->
+<!--            android:layout_width="110dp"-->
+<!--            android:layout_height="110dp"-->
+<!--            android:layout_gravity="center_horizontal" />-->
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="125dp"
+            android:layout_height="38dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/bg_button"
+            android:focusable="true"
+            android:hint="@string/save_qr"
+            android:stateListAnimator="@null"
+            android:textColorHint="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name" translatable="false">OSCAAndroidDev</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+
+    <!-- English/Filipino Language Support -->
+
+    <!-- Login -->
+    <string name="login">Login</string>
+    <string name="sign_in">Please sign in to continue</string>
+    <string name="osca_id">OSCA ID</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+
+    <!-- Profile -->
+    <string name="help">Help</string>
+    <string name="personal_details">Personal Details</string>
+    <string name="sex">SEX</string>
+    <string name="birth_date">BIRTH DATE</string>
+    <string name="membership_date">MEMBERSHIP DATE</string>
+    <string name="contact_number">CONTACT NUMBER</string>
+    <string name="address">ADDRESS</string>
+    <string name="osca_wristband">OSCA WRISTBAND</string>
+    <string name="account_status">ACCOUNT STATUS</string>
+
+    <!-- Settings -->
+    <string name="back">Back</string>
+    <string name="settings">Settings</string>
+    <string name="select_language">Select Language:</string>
+
+    <!-- Home Fragment -->
+    <string name="read_pdf">Read PDF</string>
+    <string name="notifications_reminders">Notifications and Reminders</string>
+
+    <!-- Authorization Fragment -->
+    <string name="generate_qr">Generate QR</string>
+    <string name="authorize_empty">Your Authorize Item List is Empty</string>
+    <string name="authorize_description_empty">Start adding items by clicking the + button on the lower right.</string>
+
+    <!-- Dialog Add -->
+    <string name="close">Close</string>
+    <string name="add_label">Please enter items on the fields</string>
+    <string name="add_description">Be specific in typing product name, quantity and additional notes before you add them into the list.</string>
+    <string name="enter_product_name">Enter Product Name</string>
+    <string name="enter_product_quantity">Enter Product Quantity</string>
+    <string name="addtional_notes">Additional Notes (e.g. Size, Unit, Color)</string>
+    <string name="add_item">Add Item</string>
+    <string name="update_item">Update Item</string>
+
+    <!-- Dialog QR -->
+    <string name="qr_label">Please enter your password below to generate QR code.</string>
+    <string name="qr_description">This will allow you to authorize a family member to buy items or avail services on your behalf.</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="save_qr">Save QR</string>
+
+    <!-- Dialog Help -->
+    <string name="help_label">Instruction Guide (Authorization)</string>
+    <string name="help_description">Please follow the instruction carefully.</string>
+    <string name="help_instruction">• Click the (+) button below to add items into the list\n\n• Fill-up the required fields then click the add button\n\n• Click the generate QR to display a QR code\n\n• Save the QR code by clicking the save button\n\n• The generated QR code will be used to allow purchasing of goods in behalf of the senior</string>
+
+    <!-- Dialog Forgot Password -->
+    <string name="forgot_label">Please enter your OSCA ID below</string>
+    <string name="forgot_description">Your password will be send through your mobile number.</string>
+    <string name="enter_osca">Enter OSCA ID</string>
+    <string name="enter">Enter</string>
+
+    <!-- Dialog Report Success-->
+    <string name="report_success_label">Report Successful!</string>
+    <string name="report_success_description">Thank you for reporting this issue. Your report will be evaluated and investigated thoroughly.</string>
+
+    <!-- History Fragment -->
+    <string name="transportation">Transportation</string>
+    <string name="food">Food</string>
+    <string name="pharmacy">Pharmacy</string>
+
+    <!-- Tab History Fragment -->
+    <string name="latest_transaction">Your latest transaction/s will reflect within 24 hours.</string>
+
+    <!-- Report Fragment -->
+    <string name="report_label">What would you like to report?</string>
+    <string name="report_description">Please select below which one you like to report.</string>
+    <string name="lost_osca">Lost OSCA wristband</string>
+    <string name="file_complaints">File Complaints (Establishments)</string>
+    <string name="select_establishment">Select Establishment:</string>
+    <string name="select_branch">Select Branch:</string>
+    <string name="additional_remarks">Additional Remarks</string>
+    <string name="report">Report</string>
+
+    <!-- List History -->
+    <string name="details">Details</string>
+
+    <!-- List Authorization -->
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+
+    <!-- Toast String -->
+    <string name="login_failed">Login Failed</string>
+    <string name="osca_not_exist">OSCA ID does not exist</string>
+    <string name="check_inbox">Please check your inbox</string>
+    <string name="report_failed">Report Failed!</string>
+    <string name="success_sent">Successfully Sent!</string>
+    <string name="enter_product_and_quantity">Enter product name and quantity</string>
+    <string name="enter_fist_item">Please enter items first into the list</string>
+</resources>

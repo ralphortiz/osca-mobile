@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue">#58B3BE</color>
+    <color name="lightBlue">#9CE0DF</color>
+    <color name="colorAccent">#707070</color>
+<!--    <color name="colorBackground">#EFF0EF</color>-->
+    <color name="colorBackground">#F7F8F6</color>
+    <color name="colorTextBox">#E9EAE8</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#707070</color>
+    <color name="darkGray">#636363</color>
+    <color name="opacityGray">#85707070</color>
+    <color name="opacityGray2">#EB707070</color>
+    <color name="red">#FF7477</color>
+    <color name="orange">#FFAA91</color>
+    <color name="yellow">#FCC78E</color>
+    <color name="green">#93DB70</color>
+    <color name="peach">#FFF1E2</color>
+
+
+    <!-- OLD COLOR SCHEME -->
+    <!--    <color name="green">#39A441</color>-->
+    <!--    <color name="colorAccent">#707070</color>-->
+    <!--    <color name="lightGray">#EFEFEF</color>-->
+    <!--    <color name="white">#FFFFFF</color>-->
+    <!--    <color name="black">#000000</color>-->
+    <!--    <color name="gray">#707070</color>-->
+    <!--    <color name="darkGray">#636363</color>-->
+    <!--    <color name="opacityGray">#85707070</color>-->
+    <!--    <color name="lightGreen">#69B76E</color>-->
+    <!--    <color name="yellow">#FCBA59</color>-->
+</resources>
