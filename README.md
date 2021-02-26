@@ -1,1 +1,1 @@
-# OSCA Android App Design Project
+# OSCA Android App (Design Project)
